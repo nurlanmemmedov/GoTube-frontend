@@ -1,0 +1,31 @@
+.wrapper{
+    width: 1349px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.color-liht{
+    color: $color-light;
+}
+
+.color-light-gray{
+    color: $color-light-gray;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-displays{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
