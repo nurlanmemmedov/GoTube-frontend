@@ -5,12 +5,28 @@ $color-main: orange;
 $color-light-orange: #FFF2DB;
 $color-light-border: #e2e2e2;
 $color-light-black: #3e416d;
+$color-dark-blue: #2f3152;
 $color-white: #FFFFFF;
+$color-light-blue: #f0f5fd;
+$color-light-gray-background: #F7F7F7;
+$color-dark-gray: #737373;
+$color-light-card: #9799A2;
 $color-light-background: #ededed;
 $gradient-main: linear-gradient(to right,red,orange);
+
+
 $transition-short: all .1s;
+$transition-main: .3s;
 
 $avatar-border-radius: 100%;
 $radius-main: 22px;
 $size-main: 1rem;
 $line-height: 1rem;
+$letter-spacing: 1pt;
+
+
+$header-shadow: 0px 0.052083333in 11.25pt -7px rgba(0,0,0,.1);
+
+$card-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+
+$main-font: 'Montserrat', sans-serif;

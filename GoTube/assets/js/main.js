@@ -13,6 +13,34 @@ $(document).ready(function () {
             $(".arrow-down").addClass("arrow-active");
             $(".arrow-up").removeClass("arrow-active");
             $(".arrow-up").addClass("arrow-deactive");
+
+
         }
     })
+
+    $(".menu-icon").click((e)=>{
+        $(".sidebar").toggleClass("active-sidebar");
+    })
+
+    $(".search-icon").click((e)=>{
+        $(".search input").focus();
+    })
+
+    $(".search input").focus((e)=>{
+        $(".search-history").css("display","block");
+            $(".search-history").animate({
+                top: "0%",
+                opacity: 1,
+            },300);
+    });
+
+
+
+    $(".search input").blur((e)=>{
+        $(".search-history").css("display", "none");
+        $(".search-history").css("opacity", "0");
+        $(".search-history").animate({
+            top: "35px",
+        },300);
+    });
 })

@@ -1,8 +1,9 @@
 .sidebar::-webkit-scrollbar,
 .sidebar::-webkit-scrollbar-thumb {
-  width: 26px;
+  width: 5px;
   border-radius: 13px;
-  border: 10px solid transparent;
+  padding-left: -10px;
+  border: 0 solid transparent;
 }
 
 .sidebar::-webkit-scrollbar-thumb {        
@@ -10,9 +11,10 @@
 }
 
 .sidebar{
-   
+    margin-left: -266px;
+    padding-top: 15px;
     width: 240px;
-    height:500px;
+    height:100%;
     position: fixed;
     overflow-y: scroll;
     margin-top: 60px;
@@ -22,7 +24,9 @@
         color: $color-light;
     }
     .sidebar-inner{
+        width: 235px;
         .sidebar-content{
+            width: 235px;
             .section{
                 margin-bottom: 12px;
                 border-bottom: 1px solid $color-light-border;
@@ -33,13 +37,14 @@
                     margin: 0;
                 }
                 ul{
+                    width: 100%;
                     li{
+                        width: 100%;
                         height: 47px;
                         display: flex;
                         align-items: center;
                         position: relative;
                         a{
-                           
                             padding: 0 24px;
                             color: $color-light-gray;
                             font-size: $size-main * 0.875;
@@ -181,6 +186,10 @@
             }
         }
     }
+}
+
+.active-sidebar{
+    margin-left: 0px;
 }
 
  
